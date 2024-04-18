@@ -10,24 +10,10 @@
                     "9PZTJGLGP5.com.yap.b2b.baj.preprod",
                     "9PZTJGLGP5.com.yap.b2b.baj.dev"
                 ],
-                "components": [
-                    {
-                        "/": "/verify/*",
-                        "exclude": true,
-                        "comment": "Intended to match URLs with the path starting with /verify/, ignoring query parameters"
-                    }
+                "paths": [
+                    "/verify*"
                 ]
             }
         ]
-    },
-    "components": [
-        {
-            "/": "/verify/*",
-            "exclude": true,
-            "comment": "Intended to match URLs with the path starting with /verify/, ignoring query parameters"
-        }
-    ],
-    "defaults": {
-        "caseSensitive": false
     }
 }
